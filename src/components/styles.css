@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.container button:active {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 100px;
+}
